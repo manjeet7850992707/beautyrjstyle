@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ-STYLE Website</title>
+
+    <!-- Adding CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- MediaQuery CSS -->
+    <link rel="stylesheet" href="./css/MediaQuery.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7a6c6b42a6.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            background-color: rgb(197 150 43);
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .form-group button:hover {
+           
+            background-color: rgb(101, 73, 8);
+           
+        
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <a href="#" class="logo"> -->
+        <img style="width: 150px; height: 150px;   "
+            src="./img/rj-saloon-logo.png" alt="">
+        <!-- </a> -->
+
+        <!-- <div style=""></div> -->
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">protfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="tel:+917340277771" id="NavNum">+91 7340277771</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sectionFirst">
+        <h1>Contact Us</h1>
+        <!-- Transparent Image -->
+        <section class="transform-img">
+            <img src="./img/background180.svg" alt="Background Image">
+        </section>
+    </section>
+
+    <!-- Second Section -->
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="number" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- beforefooter  -->
+    <div class="beforefooter">
+        <div class="box">
+            <div class="logo"><img
+                    style="width: 150px; height: 150px; box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; "
+                    src="./img/rj-saloon-logo.png" alt=""></div>
+            <!-- <div class="bf-text">About</div> -->
+            <p class="para">We're More Than Just a Salon, We're a Lifestyle! <br> we're here to help you express your
+                unique style.
+            </p>
+
+            <div class="bf-text">Send You Message</div>
+
+            <div class="subscribe">
+                <input type="text" name="" id="">
+                <button class="btn">Send</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Quick Links</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">protfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div class="bf-text">Follow Us</div>
+            <div class="icons">
+                <a href="https://www.facebook.com/RJStyleCraze/?mibextid=LQQJ4d" class="fa-brands fa-facebook-f"></a>
+                <a href="rj style & craze" class="fa-brands fa-google"></a>
+                <a href="https://www.instagram.com/rjstyleunisexsalonjpr/" class="fa-brands fa-instagram"></a>
+                <a href="https://www.youtube.com/@RJStyleandcraze" class="fa-brands fa-youtube"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Say Hi! </div>
+            <ul class="SayHi">
+                <li><a href="">Jangidrinku907@gmail.com</a></li>
+
+            </ul>
+
+            <div class="bf-text">Call Us</div>
+            <ul class="SayHi">
+                <li>Phone
+                    073402 77771</li>
+                <!--<li>072404 19143</li>-->
+            </ul>
+
+            <div class="bf-text">Find Us</div>
+
+            <div class="address">
+
+                118/269, Shipra Path , Jaipur, India, Rajasthan
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="fbox">Copyright &copy; 2024 RJ Style & Craze</div>
+        <div class="fbox">Powered By <a style="text-decoration: none; color: aliceblue; "
+                href="https://nearmeit.com/">Near Me Information Technology</a> </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                number: document.getElementById('number').value, // Add the number field
+                message: document.getElementById('message').value
+                
+            };
+
+            try {
+                const response = await fetch('http://localhost:5000/send', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    alert('Email sent successfully!');
+                    document.getElementById('contact-form').reset(); 
+                } else {
+                    alert('Failed to send email');
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        });
+    </script>
+</body>
+
+</html>

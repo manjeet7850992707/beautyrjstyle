@@ -1,0 +1,260 @@
+<!-- I have already made navigation bar so please watch part 1 of this series I am just going to copy all the code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ-STYLE Website</title>
+    <link rel ="icon" href ="./assets/img/RJ.png" type = "image/png">
+
+    <!-- adding css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- about css  -->
+    <link rel="stylesheet" href="./css/services.css">
+
+    <!-- mediaQuery css  -->
+    <link rel="stylesheet" href="./css/MediaQuery.css">
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/7a6c6b42a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- <a href="#" class="logo"> -->
+        <img style="width: 150px; height: 150px;  " src="./img/rj-saloon-logo.png" alt="">
+        <!-- </a> -->
+
+        <!-- <div style=""></div> -->
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">protfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="tel:+917340277771" id="NavNum">7340277771</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="sectionFirst">
+        <h1>Services</h1>
+
+        <!-- transparent Img -->
+        <section class="transform-img">
+            <img src="./img/background180.svg" alt="">
+        </section>
+    </section>
+
+
+    <!-- section second  -->
+    <section class="aboutServices">
+        <div class="ser-litText">Choose From Collection</div>
+        <p class="ser-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsum?</p>
+
+        <div class="ser-box">
+            <div class="box">
+                <div class="img">
+                    <img src="./img/nailart_1.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+                    <div class="ser-name">Clean Nail Art</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/haircut_2.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Hair Styling</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/massage_3.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Full Body Massage</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/cosmetics_4.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Stocked Cosmetic Store</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/spa_5.jpg" alt="">
+                </div>
+
+                <div class="boxinfo">
+
+                    <div class="ser-name">Fully Equipped Spa</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/botox_6.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Authorized Botox</div>
+                    <p class="ser-discription">This is a short description elaborationg the service you have mentioned
+                        above.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- discount section  -->
+    <section class="DiscountSection">
+
+        <div class="img">
+            <img src="./img/25off.png" alt="">
+        </div>
+
+        <div class="textinfo">
+            <h2>Book Your Appointment Now And Get 25% Off</h2>
+            <p>Awesome Monsoon Sale - 25% Off on All Professional Make Up </p>
+        </div>
+
+        <a href="contact.html">BOOK AN APPINTMENT</a>
+    </section>
+
+    <!-- ----slider----- -->
+    <section class="imgslidertext">
+        <div class="imgslider">
+            <img src="./img/Rj style 12.jpg" alt="" class="slide">
+            <img src="./img/Rj-style-11.jpg" alt="" class="slide">
+            <img src="./img/Rj-style-3.jpg" alt="" class="slide">
+
+            <i class="fa-solid fa-chevron-left prev" onclick="goPrev()"></i>
+            <i class="fa-solid fa-chevron-right next" onclick="goNext()"></i>
+        </div>
+
+        <div class="slideText">
+            <div class="st-heading">Bridal Make Up</div>
+            <p class="lit-text">At RJ Style & Carez, we understand that your wedding day is one of the most important
+                days of your life. Our expert bridal makeup services are designed to make you look and feel your
+                absolute best as you walk down the aisle.</p>
+
+            <div class="lit-service">
+                <div class="textinfo">
+                    <div class="ti-head">Experienced Artists</div>
+                    <p class="des">Our team of skilled professionals has years of experience in bridal makeup artistry.
+                        We stay updated with the latest trends and techniques to provide you with a look that is both
+                        timeless and trendy.</p>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head">Personalized Consultation</div>
+                    <p class="des">Our makeup artists take the time to understand your vision, preferences, and unique
+                        features to create a look that complements your personality and style.</p>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head">High-Quality Products</div>
+                    <p class="des">We use only the best and most trusted makeup brands to ensure a flawless,
+                        long-lasting finish that keeps you radiant throughout your special day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- beforefooter  -->
+    <div class="beforefooter">
+        <div class="box">
+            <div class="logo"><img
+                    style="width: 150px; height: 150px; box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; "
+                    src="./img/rj-saloon-logo.png" alt=""></div>
+            <!-- <div class="bf-text">About</div> -->
+            <p class="para">We're More Than Just a Salon, We're a Lifestyle! <br> we're here to help you express your
+                unique style.
+            </p>
+
+            <div class="bf-text">Send You Message</div>
+
+            <div class="subscribe">
+                <input type="text" name="" id="">
+                <button class="btn">Send</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Quick Links</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">protfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div class="bf-text">Follow Us</div>
+            <div class="icons">
+                <a href="https://www.facebook.com/RJStyleCraze/?mibextid=LQQJ4d" class="fa-brands fa-facebook-f"></a>
+                <a href="rj style & craze" class="fa-brands fa-google"></a>
+                <a href="https://www.instagram.com/rjstyleunisexsalonjpr/" class="fa-brands fa-instagram"></a>
+                <a href="https://www.youtube.com/@RJStyleandcraze" class="fa-brands fa-youtube"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Say Hi! </div>
+            <ul class="SayHi">
+                <li><a href="">Jangidrinku907@gmail.com</a></li>
+
+            </ul>
+
+            <div class="bf-text">Call Us</div>
+            <ul class="SayHi">
+                <li>Phone
+                    073402 77771</li>
+                <!--<li>072404 19143</li>-->
+            </ul>
+
+            <div class="bf-text">Find Us</div>
+
+            <div class="address">
+
+                118/269, Shipra Path , Jaipur, India, Rajasthan
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="fbox">Copyright &copy; 2024 RJ Style & Craze</div>
+        <div class="fbox">Powered By <a style="text-decoration: none; color: aliceblue; "
+                href="https://nearmeit.com/">Near Me Information Technology</a> </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
